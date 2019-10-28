@@ -5,3 +5,17 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+#logo{
+    width: 25em;
+    height: 25em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#welcome-text{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 3em;
+}
