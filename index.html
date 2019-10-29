@@ -25,12 +25,39 @@
             <span id="img-food3-name">Italijanska</span>
         </div>
 
-        <!-- About section -->
-        <div class="about-restaurant">
-            <h1 class="about-title">Radno vreme</h1>  
-            <h3 class="about-open-time">Radnim danima: 10:00h - 22:00h</h3>
-            <h3 class="about-open-time">Vikendom: 10:00h - 24:00h</h3>  
+        <!-- Reservation section -->
+        <div class="reservation">
+            <h1 id="reservation-title">Rezervacija</h1>
+            <form>
+                <label id ="reservation-name" for="exampleInputEmail1">Ime i prezime: </label>
+                <div class="form-group">
+                  <input type="name" class="form-control" placeholder="">
+                </div>
+
+                <label id="reservation-email" for="exampleInputEmail1">Email adresa: </label>
+                <div class="form-group">
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+
+                 <label id ="reservation-guests" for="inputState">Broj gostiju: </label>
+                 <div class="form-group">
+                        <select id="inputState" class="form-control">
+                          <option selected>1</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                          <option>6</option>
+                        </select>
+                 </div>
+                <button onclick="confirm()" type="submit" class="btn btn-primary">Potvrdi</button>
+              </form>
         </div>
 
+        <script>
+                function confirm() {
+                  alert("Hvala na rezervaciji! Uskoro ce Vas kontaktirati osoblje restorana.");
+                }
+                </script>
     </body>
 </html>

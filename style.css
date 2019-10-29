@@ -104,3 +104,56 @@
     padding-left: 2em;
     font-weight: bolder;
 }
+
+/* Reservation section */
+
+.reservation{
+    height: 100%;
+    background-image: url("./img/about.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#reservation-title{
+    color:white;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 2em;
+}
+
+.form-group{
+    opacity: 0.3;
+    width: 40em;
+    padding-left: 6em;
+}
+
+#reservation-name{
+    color:white;
+    font-size: 2em;
+    padding-left: 3em;
+}
+
+#reservation-email{
+    color:white;
+    font-size: 2em;
+    padding-left: 3em;
+
+}
+
+#reservation-guests{
+    color:white;
+    font-size: 2em;
+    padding-left: 3em;
+
+}
+
+.btn-primary{
+    margin-left: 32em;
+    margin-top: 2em;
+    height: 3em;
+    width: 8em;
+    font-weight: bold;
+    background-color:#106B88;
+    border: none;
+}
