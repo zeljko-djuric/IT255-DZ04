@@ -81,3 +81,26 @@
     color:white;
     font-size: 2em;
 }
+
+/* about restaurant */
+.about-restaurant{
+    height: 80%;
+    background-image: url("./img/about.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-title{
+    color: white;
+    text-align: center;
+    padding-top: 2em;
+    font-weight: bolder;
+}
+
+.about-open-time{
+    color:white;
+    padding-top: 2em;
+    padding-left: 2em;
+    font-weight: bolder;
+}
